@@ -1,0 +1,27 @@
+img{
+width: 125%
+}
+
+.column1 {
+  width: 300px;
+  float: left;
+  color: blue;
+}
+
+.description1{
+  color: black;
+}
+
+  .column2 {
+    width: 300px;
+    float: left;
+    color: red
+
+    }
+
+    .column3 {
+      width: 300px;
+      float: left;
+      color: green
+
+      }
