@@ -12,16 +12,28 @@ width: 125%
   color: black;
 }
 
-  .column2 {
-    width: 300px;
-    float: left;
-    color: red
+.column2 {
+  width: 300px;
+  float: left;
+  color: red;
+  }
 
-    }
+.column3 {
+  width: 300px;
+  float: left;
+  color: green;
+  }
 
-    .column3 {
-      width: 300px;
-      float: left;
-      color: green
+@media screen and (max-width: 780px) {
+  body {
+    background-color: pink;
+  }
+}
 
-      }
+@media screen and (max-width: 480px) {
+  body {
+
+  background-color: blue;
+  font-style: italic;
+  }
+}
